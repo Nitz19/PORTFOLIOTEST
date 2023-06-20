@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -14,6 +13,13 @@
 .dark-theme {
   --primary-color: rgb(0, 0, 0);
   --secondary-color: #0ef;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 0;
 }
 
 body {
@@ -84,7 +90,7 @@ body {
   display: flex;
   height: 600px;
   top: 80px;
-  margin-left: 750px;
+  margin-left: 650px;
 }
 
 .home-content {
